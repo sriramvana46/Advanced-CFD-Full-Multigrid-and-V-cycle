@@ -1,10 +1,2 @@
-This repository contains an implementation of the unsteady Navier-Stokes equations solver for the 2D lid-driven cavity problem using the fractional step (projection) method. The code simulates incompressible fluid flow in a square domain where the top boundary is driven by a constant velocity, generating complex vortical structures over time.
-
-Key features:
-
-   Time-dependent simulation of 2D incompressible flow.
-
-   Fractional step method (Chorin’s projection) for pressure-velocity coupling.
-
-   Easily customizable boundary conditions and solver parameters.
+This repository provides a one-dimensional solver for the differential equation −u′′(x)+σu(x)=f(x)−u′′(x)+σu(x)=f(x) with homogeneous boundary conditions, discretized using the finite difference method. The solution is accelerated via both V-cycle and Full Multigrid algorithms. The implementation demonstrates efficient multigrid techniques for model elliptic problems
 
